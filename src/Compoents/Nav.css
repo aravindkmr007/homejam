@@ -1,0 +1,38 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    z-index: 10;
+    transition: all 1s;
+    transition-timing-function: ease-in;    
+}
+
+.nav_black 
+{
+    transition: all 1s;
+    transition-timing-function: ease-out;
+    background-color: black;
+}
+.logo {
+    width: 50px;
+    position: fixed;
+    left: 50px;
+    object-fit: contain;
+}
+.navbar
+{
+    margin-top: 10px;
+    width: 100vw;
+}
+
+.navbar-nav
+{
+    text-align: right;
+}
+.navbar-nav .nav-item .nav-link
+{
+    color: white;
+}

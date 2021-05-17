@@ -1,0 +1,50 @@
+.row_cards_reviews
+{
+    display: flex;
+    overflow-x: scroll;
+}
+.row_cards_reviews::-webkit-scrollbar
+{
+    width: 0%;
+}
+.reviewer_header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.row_re
+{
+    width: 100vw;
+}
+.reviewer_header img
+{
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.review p
+{
+    margin-bottom: 30px;
+    color: white;
+}
+.reviewer
+{
+    display: flex;
+    justify-content: end;
+    margin-left: 90px;
+    margin-top: 50px;
+    border: 1px solid yellow;
+    min-height: 300px;
+    width: 1000px;
+    background-color: transparent;
+    box-shadow: 5px -10px rgba(18, 18, 151, 0.637);
+    flex-direction: column;
+}
+.reviewer_details
+{
+    display: flex;
+    flex-direction: column;
+}
